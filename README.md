@@ -12,7 +12,7 @@ To initialize a new client, generate a new guitarparty client with your API key 
 guitarparty_client = Guitarparty::Client.new("f97b51d89ce0aab433e06258def19cbe20bf8bbc")
 ```
 
-##Songs
+##To Use:
 
 All song-finding and artist-finding methods return JSON.
 
@@ -23,7 +23,7 @@ guitarparty_client.get_song(1)
 
 guitarparty_client.get_artist(1)
 ```
-# or find a song/artist using a query:
+Or find a song/artist using a query:
 ```ruby
 guitarparty_client.search_songs('Jolene')
 
