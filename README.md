@@ -5,6 +5,12 @@ Lightweight, easy-to-use ruby client for the guitarparty API
 
 ##Setup
 
+To install:
+
+```
+gem install guitarparty-ruby
+```
+
 To initialize a new client, generate a new guitarparty client with your API key as such:
 (the below key is fake)
 
@@ -40,7 +46,7 @@ guitarparty_client.get_song_chords(1)
 
 ###Additional Info
 
-I wrote this in a small amount of time over an afternoon -- there's some work to be done on adding additional features, which I will work on through time.
+I wrote this in a small amount of time over an afternoon -- there's some work to be done on adding additional features, which I will work on through time. Currently most methods return an HTTParty Response object, I'm working on returning a ruby hash to make things easier.
 
 Enjoy!
 
