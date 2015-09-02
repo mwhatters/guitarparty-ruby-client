@@ -44,13 +44,13 @@ module GuitarParty
 
     def get_song_chords(song_id)
       song = JSON.parse((self.get_song(song_id).body))
-      {title: song["title"], artist: song["authors"][0]["name"], chords: grab_chords(song)}
+      {"title" => song["title"], "artist" => song["authors"][0]["name"], "chords" => grab_chords(song)}
     end
 
     private
 
     def make_request(uri)
-      self.class.get(uri, headers: @headers)
+      self.class.get(uri, headers: @headers).parsed_response
     end
 
     def grab_chords(song)
