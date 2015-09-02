@@ -1,0 +1,2 @@
+0.0.0 - Initial Release
+0.0.1 - Response returns only a ruby hash instead of an HTTParty Response object.
