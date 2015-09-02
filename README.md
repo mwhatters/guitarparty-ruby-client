@@ -48,7 +48,7 @@ Note how the search method returns a Hash that has a key, objects, pointing to a
 I wrote a method that returns a ruby hash of the title, artist, and chords of a song, in sequential order:
 ```ruby
 guitarparty_client.get_song_chords(1)
-# {:title=>"A Hard Day's Night", :artist=>"John Lennon", :chords=>["G", "G", "F", "G", "G", "F", "G", "C", "D", "G", "G", "G", "G", "F", "G", "G", "F", "G", "C", "D", "G", "G", "G", "C", "D", "G", "G", "F", "G", "G", "F", "G", "C", "D", "G", "G", "C", "D", "G", "G", "G", "C", "D", "G", "G", "F", "G", "G", "F", "G", "C", "D", "G", "G", "G", "G"]}
+# {"title"=>"A Hard Day's Night", "artist"=>"John Lennon", "chords"=>["G", "G", "F", "G", "G", "F", "G", "C", "D", "G", "G", "G", "G", "F", "G", "G", "F", "G", "C", "D", "G", "G", "G", "C", "D", "G", "G", "F", "G", "G", "F", "G", "C", "D", "G", "G", "C", "D", "G", "G", "G", "C", "D", "G", "G", "F", "G", "G", "F", "G", "C", "D", "G", "G", "G", "G"]}
 ```
 
 
